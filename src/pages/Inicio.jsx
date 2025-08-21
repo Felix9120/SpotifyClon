@@ -1,8 +1,10 @@
 import React from 'react'
 import Sidebar from '../componentes/Sidebar';
 import Biblioteca from '../componentes/Biblioteca';
-import Banner from '../componentes/Banner';
 import Playlist from '../componentes/Playlist';
+import Artistas from '../componentes/Artistas';
+
+
 
 function Inicio() {
 
@@ -17,10 +19,12 @@ function Inicio() {
 
           <div className='flex-1 flex flex-col ml-1.5'>
             <div className='flex-1' >
-              <Banner />
+              <Artistas />
+              
+               
               <Playlist />
             </div>
-            
+
           </div>
 
         </div>
